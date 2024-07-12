@@ -1,0 +1,50 @@
+/* Utilisation de CSS Grid pour organiser les cocktails en colonnes */
+.cocktail-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Style pour chaque élément de cocktail */
+.cocktail-item {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Effet de survol pour les éléments de cocktail */
+.cocktail-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour les images des cocktails */
+.cocktail-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Style pour les titres des cocktails */
+.cocktail-item h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Style pour les descriptions des cocktails */
+.cocktail-item p {
+  color: #666;
+}
+
+/* Style spécifique pour le prix */
+.cocktail-item .price {
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+}

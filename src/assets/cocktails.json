@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Sex on the beach",
+        "price": 10,
+        "img": "assets/martini.jpg",
+        "description": "A fruity cocktail with vodka, peach schnapps, cranberry juice, and orange juice."
+    },
+    {
+        "name": "Marguarita",
+        "price": 13,
+        "img": "assets/margarita.jpg",
+        "description": "A tangy cocktail with tequila, lime, and Cointreau."
+    },
+    {
+        "name": "Martini",
+        "price": 8,
+        "img": "assets/martini.jpg",
+        "description": "A classic cocktail with gin and vermouth."
+    }
+]
